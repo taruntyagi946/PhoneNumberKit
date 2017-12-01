@@ -8,9 +8,10 @@
 
 import Foundation
 import UIKit
+import JVFloatLabeledTextField
 
 /// Custom text field that formats phone numbers
-open class PhoneNumberTextField: UITextField, UITextFieldDelegate {
+open class PhoneNumberTextField: JVFloatLabeledTextField, UITextFieldDelegate {
     
     let phoneNumberKit = PhoneNumberKit()
     
