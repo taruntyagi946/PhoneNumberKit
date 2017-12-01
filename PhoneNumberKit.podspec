@@ -56,4 +56,6 @@ Pod::Spec.new do |s|
     ui.source_files = 'PhoneNumberKit/UI/'
   end
 
+ s.dependency     'JVFloatLabeledTextField'
+
 end
