@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007DDD26853A97DE04E68DE9F4C9E123 /* Pods-PhoneNumberKit-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8F996A496FEDF1909E7F2DF9DDAA2C /* Pods-PhoneNumberKit-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF0C2EF58F2CF0DD7922FD4E4AF0C6D /* Pods-PhoneNumberKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CA544F777305F98EB3DE969B49F75 /* Pods-PhoneNumberKitTests-dummy.m */; };
+		16E0C745C86F4D2A4D920D46027F6C95 /* Pods-PhoneNumberKit-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDE3EBB4591A8F3AACC90BC9D0D280 /* Pods-PhoneNumberKit-tvOS-dummy.m */; };
+		224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C9FF99E5170D87F4310DEFBF8993CC /* JVFloatLabeledTextField-dummy.m */; };
+		2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0917D1054C8F105512A0218DBD145353 /* JVFloatLabeledTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A643C5429D1F3D75631928DBC63DEC /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		379177FA0D1378B9507F57C279AB0515 /* Pods-PhoneNumberKit-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B279DFD8D146185F5BFE2D87C30A8D /* Pods-PhoneNumberKit-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40ABBAB7BA7E1ACFB3DDA69E8B97F59C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D0C20238413BDAE6873846A933D0A /* Cocoa.framework */; };
+		68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0E60531E493A45B8E765E4572700AC /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = E311E623462285FCAF4E567E1324009B /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760310A635FB79C79BEC9E37E12AFD18 /* Pods-PhoneNumberKit-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C567DBAAD148492EB9BD28E70D241339 /* Pods-PhoneNumberKit-watchOS-dummy.m */; };
+		8807262F8C0F05D0627263087FB4B9C4 /* Pods-PhoneNumberKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FBA8081E92B25AAD9B4538CEADEBEF /* Pods-PhoneNumberKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91555CBC9016FDA8E123FA57BC45DD0E /* Pods-PhoneNumberKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E600FDA5ABDCAAC5395F3BB862696E42 /* Pods-PhoneNumberKit-dummy.m */; };
+		924901B3F1DC1B45B060B276666BEF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFEAC80AB2E00CFC60743201EA79E8E /* Foundation.framework */; };
+		971BCBB6A07F701801156BA25D6CD843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20B11C2A88FE324D51F7FE60C7133D5 /* Foundation.framework */; };
+		9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AFAF073A73FDACE22E0E8EBD531ED8 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9CD161DA02156066CE5847BEABDDE3D0 /* Pods-PhoneNumberKit-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F4BAB1ADA5D60A5963022F1C52F68 /* Pods-PhoneNumberKit-macOS-dummy.m */; };
+		B448162A81E9F18E567A4B0342ED1319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAD35F29F63C664C17DF3736AD7CBB7 /* UIKit.framework */; };
+		BD95FC7B6118484BA01780C350C090DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20B11C2A88FE324D51F7FE60C7133D5 /* Foundation.framework */; };
+		D0A1FBD736512DD62FC8B545C4E24A45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20B11C2A88FE324D51F7FE60C7133D5 /* Foundation.framework */; };
+		E53AC3F7B911519A2745ABDE840668C7 /* Pods-PhoneNumberKit-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E5F7D0DA087851477FDCC9059E9C35 /* Pods-PhoneNumberKit-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B5396A462AA4369C359AA422671447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528B66A2BC53927BB64C91DB055F0D5D /* Foundation.framework */; };
+		EA6C714C20CACB53493D9313AF8D445F /* Pods-PhoneNumberKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 703EB8C509C5D0A54AC695B914BE98E0 /* Pods-PhoneNumberKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 790DC00DC9DFE2D1FB88C5C4CD862932 /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 98036F21644AC37C06E550C115FEC99B /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		771CFB0C9832F6609F18125F0E0B8178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4448146C785C426971111F117D773C;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+		D8F2EF6A92040761747AA1E7A1067445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4448146C785C426971111F117D773C;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027EB29944D0F885D2BDF7BAEF486576 /* Pods-PhoneNumberKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneNumberKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		063242480A1EB82E1D8FA68A1E4BA613 /* Pods-PhoneNumberKit-macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneNumberKit-macOS-resources.sh"; sourceTree = "<group>"; };
+		06CB53E64F898A5AABF15D86CC104828 /* Pods-PhoneNumberKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneNumberKitTests.modulemap"; sourceTree = "<group>"; };
+		0781C770CFCFCCB016FB7E4A99DC7199 /* Pods_PhoneNumberKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneNumberKit_tvOS.framework; path = "Pods-PhoneNumberKit-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0917D1054C8F105512A0218DBD145353 /* JVFloatLabeledTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-umbrella.h"; sourceTree = "<group>"; };
+		0EDA5279AB3F1567129BED70D70A4116 /* JVFloatLabeledTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JVFloatLabeledTextField.modulemap; sourceTree = "<group>"; };
+		10B279DFD8D146185F5BFE2D87C30A8D /* Pods-PhoneNumberKit-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneNumberKit-macOS-umbrella.h"; sourceTree = "<group>"; };
+		15FBA8081E92B25AAD9B4538CEADEBEF /* Pods-PhoneNumberKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneNumberKitTests-umbrella.h"; sourceTree = "<group>"; };
+		1B21EECFF239AE0241B2D4C025C8A065 /* Pods-PhoneNumberKit-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneNumberKit-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B8F996A496FEDF1909E7F2DF9DDAA2C /* Pods-PhoneNumberKit-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneNumberKit-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		1C26E137D425BF65B08F3863325FA9C5 /* Pods-PhoneNumberKit-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		1EB118DCD193D74CCA491992BBE9E830 /* Pods-PhoneNumberKit-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneNumberKit-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		363DDA862FD9371033CAD0E0EA895BF6 /* Pods-PhoneNumberKit-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneNumberKit-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		368EC1E5001A2A1E9C16D346EB1800BD /* Pods-PhoneNumberKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneNumberKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		38A643C5429D1F3D75631928DBC63DEC /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		395DA8A22C45AD8E78605FCD35436C39 /* Pods-PhoneNumberKit-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneNumberKit-tvOS.modulemap"; sourceTree = "<group>"; };
+		3B5CA544F777305F98EB3DE969B49F75 /* Pods-PhoneNumberKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneNumberKitTests-dummy.m"; sourceTree = "<group>"; };
+		3C0E60531E493A45B8E765E4572700AC /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		3D1FB59326E2A7874EBD8445111F273E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411D0C20238413BDAE6873846A933D0A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5098F3D1638A2C55A21CFD6B5D14823C /* Pods-PhoneNumberKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneNumberKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5242C0CF91FB087D43AE53DF1842E8D4 /* Pods-PhoneNumberKitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneNumberKitTests-resources.sh"; sourceTree = "<group>"; };
+		528B66A2BC53927BB64C91DB055F0D5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53136EE8FA6653E15860E12A024BFA9A /* Pods_PhoneNumberKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneNumberKitTests.framework; path = "Pods-PhoneNumberKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5352E6AA709E13508795BF56BE73A221 /* Pods-PhoneNumberKit-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneNumberKit-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		580B70E6E5CBF212BD26CCEE595322F4 /* Pods-PhoneNumberKit-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		656B2041FC3F0AAFC8BB76ADEA736D4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679497E6804074831DF8808B4495CC76 /* Pods-PhoneNumberKit-watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneNumberKit-watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6823DCA9142D1ED36D2D0BB9FA0E9839 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3F65F81419764EA9153FE14D6C3C4F /* Pods-PhoneNumberKit-watchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneNumberKit-watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		703EB8C509C5D0A54AC695B914BE98E0 /* Pods-PhoneNumberKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneNumberKit-umbrella.h"; sourceTree = "<group>"; };
+		70C9FF99E5170D87F4310DEFBF8993CC /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		790DC00DC9DFE2D1FB88C5C4CD862932 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		7A819231FB1D7C4621C5E5DE8BE99F3A /* Pods-PhoneNumberKit-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		7B4E4ADB65E35B6D8CBB77408553C841 /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		857D0BC287CB96FB359E607B199F6199 /* Pods-PhoneNumberKit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDC9E32EDD68CFD0108C614B2F7865C /* Pods-PhoneNumberKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		937A18829CCFA8AC56941F844D9601CA /* Pods-PhoneNumberKit-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneNumberKit-tvOS-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98036F21644AC37C06E550C115FEC99B /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		9FAD35F29F63C664C17DF3736AD7CBB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A013E631B8D8CABB86D295B0890BAE42 /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		A5DFD482673D8455F205E0F87C559336 /* Pods-PhoneNumberKit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AC43597BD6696197BFDB504C4301E697 /* Pods_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneNumberKit.framework; path = "Pods-PhoneNumberKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B193597934C1EC23744CC034305B6712 /* Pods-PhoneNumberKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneNumberKit-resources.sh"; sourceTree = "<group>"; };
+		B20B11C2A88FE324D51F7FE60C7133D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BCAA9D7718F89FA6CC279253FF316F8A /* Pods-PhoneNumberKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit.debug.xcconfig"; sourceTree = "<group>"; };
+		BCF02B1C4F32FEA5B40D232188BD4136 /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFloatLabeledTextField.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC27A366912EE9910941083347DF858 /* Pods-PhoneNumberKitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneNumberKitTests-frameworks.sh"; sourceTree = "<group>"; };
+		BDDDE3EBB4591A8F3AACC90BC9D0D280 /* Pods-PhoneNumberKit-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneNumberKit-tvOS-dummy.m"; sourceTree = "<group>"; };
+		BF9C146645A8A9BA4A1AF227A61862F4 /* Pods-PhoneNumberKit-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneNumberKit-macOS.modulemap"; sourceTree = "<group>"; };
+		C000CDBC2CF44F80270F09F1103C368C /* Pods-PhoneNumberKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit.release.xcconfig"; sourceTree = "<group>"; };
+		C567DBAAD148492EB9BD28E70D241339 /* Pods-PhoneNumberKit-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneNumberKit-watchOS-dummy.m"; sourceTree = "<group>"; };
+		CDEBEA46AE8D4700C2894EE2F8A8044A /* Pods_PhoneNumberKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneNumberKit_watchOS.framework; path = "Pods-PhoneNumberKit-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10A9880D12FA142E48F2249AF1D29A8 /* Pods-PhoneNumberKit-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKit-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D8AFAF073A73FDACE22E0E8EBD531ED8 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		DEC6F55E3619D861E8CF58B74EA10144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C6F3749B99EDFD364D2063E82A6BBD /* Pods-PhoneNumberKit-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneNumberKit-watchOS.modulemap"; sourceTree = "<group>"; };
+		E311E623462285FCAF4E567E1324009B /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		E34F9C19FEFDF41A6223BD3CE042FA9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E600FDA5ABDCAAC5395F3BB862696E42 /* Pods-PhoneNumberKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneNumberKit-dummy.m"; sourceTree = "<group>"; };
+		EC2178201B88D219B918CDFD8245A20E /* Pods-PhoneNumberKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneNumberKit.modulemap"; sourceTree = "<group>"; };
+		EE9F4BAB1ADA5D60A5963022F1C52F68 /* Pods-PhoneNumberKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneNumberKit-macOS-dummy.m"; sourceTree = "<group>"; };
+		F1F2E28C4B8BE661C516D6218B33F9E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E5F7D0DA087851477FDCC9059E9C35 /* Pods-PhoneNumberKit-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneNumberKit-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		F58AB0FBE864769BF411850C5A2EA287 /* Pods_PhoneNumberKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneNumberKit_macOS.framework; path = "Pods-PhoneNumberKit-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59B486B952087AA5B52D106B134EB56 /* Pods-PhoneNumberKit-watchOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneNumberKit-watchOS-resources.sh"; sourceTree = "<group>"; };
+		FA12DBDFB888B7F67983B1EE9952F14A /* Pods-PhoneNumberKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneNumberKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBFEAC80AB2E00CFC60743201EA79E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC19FFDEDB7A13DF49F648AD1FE6B8F5 /* Pods-PhoneNumberKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneNumberKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1398EB45F6A88815B8D94D65F80AB2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924901B3F1DC1B45B060B276666BEF48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568DC11159249E283D6BEA466EF9CB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A1FBD736512DD62FC8B545C4E24A45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD95FC7B6118484BA01780C350C090DD /* Foundation.framework in Frameworks */,
+				B448162A81E9F18E567A4B0342ED1319 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B42E7F21811B118627423202DC2382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B5396A462AA4369C359AA422671447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072D3144B5EFA517B7E561EB5495606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BCBB6A07F701801156BA25D6CD843 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC19FFB703216F5CE5DF3AFE5116BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ABBAB7BA7E1ACFB3DDA69E8B97F59C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084D03FD209A103E25C5CA8C3036CC82 /* Pods-PhoneNumberKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				656B2041FC3F0AAFC8BB76ADEA736D4A /* Info.plist */,
+				06CB53E64F898A5AABF15D86CC104828 /* Pods-PhoneNumberKitTests.modulemap */,
+				5098F3D1638A2C55A21CFD6B5D14823C /* Pods-PhoneNumberKitTests-acknowledgements.markdown */,
+				027EB29944D0F885D2BDF7BAEF486576 /* Pods-PhoneNumberKitTests-acknowledgements.plist */,
+				3B5CA544F777305F98EB3DE969B49F75 /* Pods-PhoneNumberKitTests-dummy.m */,
+				BDC27A366912EE9910941083347DF858 /* Pods-PhoneNumberKitTests-frameworks.sh */,
+				5242C0CF91FB087D43AE53DF1842E8D4 /* Pods-PhoneNumberKitTests-resources.sh */,
+				15FBA8081E92B25AAD9B4538CEADEBEF /* Pods-PhoneNumberKitTests-umbrella.h */,
+				FC19FFDEDB7A13DF49F648AD1FE6B8F5 /* Pods-PhoneNumberKitTests.debug.xcconfig */,
+				8DDC9E32EDD68CFD0108C614B2F7865C /* Pods-PhoneNumberKitTests.release.xcconfig */,
+			);
+			name = "Pods-PhoneNumberKitTests";
+			path = "Target Support Files/Pods-PhoneNumberKitTests";
+			sourceTree = "<group>";
+		};
+		0A1EE4B7EEE4F3443483D39E267CDD9E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				528B66A2BC53927BB64C91DB055F0D5D /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		13342D3EFDE0580D6EC31FCFC075F581 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBFEAC80AB2E00CFC60743201EA79E8E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		211D6ACC5C2A1C9A8D2C54FA8081B551 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B20B11C2A88FE324D51F7FE60C7133D5 /* Foundation.framework */,
+				9FAD35F29F63C664C17DF3736AD7CBB7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46C12EB9F3F31554310FE219E676800E /* Pods-PhoneNumberKit-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6823DCA9142D1ED36D2D0BB9FA0E9839 /* Info.plist */,
+				BF9C146645A8A9BA4A1AF227A61862F4 /* Pods-PhoneNumberKit-macOS.modulemap */,
+				1EB118DCD193D74CCA491992BBE9E830 /* Pods-PhoneNumberKit-macOS-acknowledgements.markdown */,
+				1B21EECFF239AE0241B2D4C025C8A065 /* Pods-PhoneNumberKit-macOS-acknowledgements.plist */,
+				EE9F4BAB1ADA5D60A5963022F1C52F68 /* Pods-PhoneNumberKit-macOS-dummy.m */,
+				063242480A1EB82E1D8FA68A1E4BA613 /* Pods-PhoneNumberKit-macOS-resources.sh */,
+				10B279DFD8D146185F5BFE2D87C30A8D /* Pods-PhoneNumberKit-macOS-umbrella.h */,
+				580B70E6E5CBF212BD26CCEE595322F4 /* Pods-PhoneNumberKit-macOS.debug.xcconfig */,
+				1C26E137D425BF65B08F3863325FA9C5 /* Pods-PhoneNumberKit-macOS.release.xcconfig */,
+			);
+			name = "Pods-PhoneNumberKit-macOS";
+			path = "Target Support Files/Pods-PhoneNumberKit-macOS";
+			sourceTree = "<group>";
+		};
+		693B3603D4847BAF9D909D30519C1B2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FB59326E2A7874EBD8445111F273E /* Info.plist */,
+				0EDA5279AB3F1567129BED70D70A4116 /* JVFloatLabeledTextField.modulemap */,
+				A013E631B8D8CABB86D295B0890BAE42 /* JVFloatLabeledTextField.xcconfig */,
+				70C9FF99E5170D87F4310DEFBF8993CC /* JVFloatLabeledTextField-dummy.m */,
+				7B4E4ADB65E35B6D8CBB77408553C841 /* JVFloatLabeledTextField-prefix.pch */,
+				0917D1054C8F105512A0218DBD145353 /* JVFloatLabeledTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
+			sourceTree = "<group>";
+		};
+		745D3D2FFE2930DD884FC1A4A8AB4BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF02B1C4F32FEA5B40D232188BD4136 /* JVFloatLabeledTextField.framework */,
+				AC43597BD6696197BFDB504C4301E697 /* Pods_PhoneNumberKit.framework */,
+				F58AB0FBE864769BF411850C5A2EA287 /* Pods_PhoneNumberKit_macOS.framework */,
+				0781C770CFCFCCB016FB7E4A99DC7199 /* Pods_PhoneNumberKit_tvOS.framework */,
+				CDEBEA46AE8D4700C2894EE2F8A8044A /* Pods_PhoneNumberKit_watchOS.framework */,
+				53136EE8FA6653E15860E12A024BFA9A /* Pods_PhoneNumberKitTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A69115D6F216CED414AB012A95729459 /* Frameworks */,
+				9FFF112B167A55FC1908E1DD44603498 /* Pods */,
+				745D3D2FFE2930DD884FC1A4A8AB4BBA /* Products */,
+				B088A6EE700BA28355567D8B8468BF6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFF112B167A55FC1908E1DD44603498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE02CD1271BD8F5006F2838F2173501B /* JVFloatLabeledTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4D46A911233E96E0BF8E2F0ECA4527C /* Pods-PhoneNumberKit-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2E28C4B8BE661C516D6218B33F9E1 /* Info.plist */,
+				E2C6F3749B99EDFD364D2063E82A6BBD /* Pods-PhoneNumberKit-watchOS.modulemap */,
+				679497E6804074831DF8808B4495CC76 /* Pods-PhoneNumberKit-watchOS-acknowledgements.markdown */,
+				6D3F65F81419764EA9153FE14D6C3C4F /* Pods-PhoneNumberKit-watchOS-acknowledgements.plist */,
+				C567DBAAD148492EB9BD28E70D241339 /* Pods-PhoneNumberKit-watchOS-dummy.m */,
+				F59B486B952087AA5B52D106B134EB56 /* Pods-PhoneNumberKit-watchOS-resources.sh */,
+				F2E5F7D0DA087851477FDCC9059E9C35 /* Pods-PhoneNumberKit-watchOS-umbrella.h */,
+				D10A9880D12FA142E48F2249AF1D29A8 /* Pods-PhoneNumberKit-watchOS.debug.xcconfig */,
+				7A819231FB1D7C4621C5E5DE8BE99F3A /* Pods-PhoneNumberKit-watchOS.release.xcconfig */,
+			);
+			name = "Pods-PhoneNumberKit-watchOS";
+			path = "Target Support Files/Pods-PhoneNumberKit-watchOS";
+			sourceTree = "<group>";
+		};
+		A69115D6F216CED414AB012A95729459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				211D6ACC5C2A1C9A8D2C54FA8081B551 /* iOS */,
+				F87E867591EF215DB1680ECFA9762827 /* OS X */,
+				0A1EE4B7EEE4F3443483D39E267CDD9E /* tvOS */,
+				13342D3EFDE0580D6EC31FCFC075F581 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B088A6EE700BA28355567D8B8468BF6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3818E46E590C358EA5C9F4295F00D /* Pods-PhoneNumberKit */,
+				46C12EB9F3F31554310FE219E676800E /* Pods-PhoneNumberKit-macOS */,
+				C1FABE0B0F8ADF6401251BF9A0165A01 /* Pods-PhoneNumberKit-tvOS */,
+				A4D46A911233E96E0BF8E2F0ECA4527C /* Pods-PhoneNumberKit-watchOS */,
+				084D03FD209A103E25C5CA8C3036CC82 /* Pods-PhoneNumberKitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1FABE0B0F8ADF6401251BF9A0165A01 /* Pods-PhoneNumberKit-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				DEC6F55E3619D861E8CF58B74EA10144 /* Info.plist */,
+				395DA8A22C45AD8E78605FCD35436C39 /* Pods-PhoneNumberKit-tvOS.modulemap */,
+				363DDA862FD9371033CAD0E0EA895BF6 /* Pods-PhoneNumberKit-tvOS-acknowledgements.markdown */,
+				5352E6AA709E13508795BF56BE73A221 /* Pods-PhoneNumberKit-tvOS-acknowledgements.plist */,
+				BDDDE3EBB4591A8F3AACC90BC9D0D280 /* Pods-PhoneNumberKit-tvOS-dummy.m */,
+				937A18829CCFA8AC56941F844D9601CA /* Pods-PhoneNumberKit-tvOS-resources.sh */,
+				1B8F996A496FEDF1909E7F2DF9DDAA2C /* Pods-PhoneNumberKit-tvOS-umbrella.h */,
+				857D0BC287CB96FB359E607B199F6199 /* Pods-PhoneNumberKit-tvOS.debug.xcconfig */,
+				A5DFD482673D8455F205E0F87C559336 /* Pods-PhoneNumberKit-tvOS.release.xcconfig */,
+			);
+			name = "Pods-PhoneNumberKit-tvOS";
+			path = "Target Support Files/Pods-PhoneNumberKit-tvOS";
+			sourceTree = "<group>";
+		};
+		DE02CD1271BD8F5006F2838F2173501B /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				98036F21644AC37C06E550C115FEC99B /* JVFloatLabeledTextField.h */,
+				790DC00DC9DFE2D1FB88C5C4CD862932 /* JVFloatLabeledTextField.m */,
+				3C0E60531E493A45B8E765E4572700AC /* JVFloatLabeledTextView.h */,
+				38A643C5429D1F3D75631928DBC63DEC /* JVFloatLabeledTextView.m */,
+				E311E623462285FCAF4E567E1324009B /* NSString+TextDirectionality.h */,
+				D8AFAF073A73FDACE22E0E8EBD531ED8 /* NSString+TextDirectionality.m */,
+				693B3603D4847BAF9D909D30519C1B2B /* Support Files */,
+			);
+			name = JVFloatLabeledTextField;
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+		ECB3818E46E590C358EA5C9F4295F00D /* Pods-PhoneNumberKit */ = {
+			isa = PBXGroup;
+			children = (
+				E34F9C19FEFDF41A6223BD3CE042FA9A /* Info.plist */,
+				EC2178201B88D219B918CDFD8245A20E /* Pods-PhoneNumberKit.modulemap */,
+				FA12DBDFB888B7F67983B1EE9952F14A /* Pods-PhoneNumberKit-acknowledgements.markdown */,
+				368EC1E5001A2A1E9C16D346EB1800BD /* Pods-PhoneNumberKit-acknowledgements.plist */,
+				E600FDA5ABDCAAC5395F3BB862696E42 /* Pods-PhoneNumberKit-dummy.m */,
+				B193597934C1EC23744CC034305B6712 /* Pods-PhoneNumberKit-resources.sh */,
+				703EB8C509C5D0A54AC695B914BE98E0 /* Pods-PhoneNumberKit-umbrella.h */,
+				BCAA9D7718F89FA6CC279253FF316F8A /* Pods-PhoneNumberKit.debug.xcconfig */,
+				C000CDBC2CF44F80270F09F1103C368C /* Pods-PhoneNumberKit.release.xcconfig */,
+			);
+			name = "Pods-PhoneNumberKit";
+			path = "Target Support Files/Pods-PhoneNumberKit";
+			sourceTree = "<group>";
+		};
+		F87E867591EF215DB1680ECFA9762827 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				411D0C20238413BDAE6873846A933D0A /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67C60C01BFE2496AC9B498FF57C3BFE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53AC3F7B911519A2745ABDE840668C7 /* Pods-PhoneNumberKit-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8913FC3CDE0A0CD86B205644BE28AB4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8807262F8C0F05D0627263087FB4B9C4 /* Pods-PhoneNumberKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78C8294FB1A4564FF7DB16A9E6A59FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379177FA0D1378B9507F57C279AB0515 /* Pods-PhoneNumberKit-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1693C9073C80C3C23D870E146BB68E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */,
+				F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */,
+				68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */,
+				6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63E3F38FD2FAB040AEBA3E17AAFA2E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6C714C20CACB53493D9313AF8D445F /* Pods-PhoneNumberKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF9858E62422C90F422BB3474D7377B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007DDD26853A97DE04E68DE9F4C9E123 /* Pods-PhoneNumberKit-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16A11D71521A2027BFEE514805DA1ABC /* Pods-PhoneNumberKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69308DC7DB54AE1F800134D2F0AD6E4E /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit" */;
+			buildPhases = (
+				3C4813E86CA47DD3A47C181144E32482 /* Sources */,
+				A072D3144B5EFA517B7E561EB5495606 /* Frameworks */,
+				B63E3F38FD2FAB040AEBA3E17AAFA2E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729F38C8900FF51F1AAED1806D59F15E /* PBXTargetDependency */,
+			);
+			name = "Pods-PhoneNumberKit";
+			productName = "Pods-PhoneNumberKit";
+			productReference = AC43597BD6696197BFDB504C4301E697 /* Pods_PhoneNumberKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */;
+			buildPhases = (
+				331CAB23E830D1AA0768D9AC301E22B6 /* Sources */,
+				5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */,
+				B1693C9073C80C3C23D870E146BB68E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField;
+			productName = JVFloatLabeledTextField;
+			productReference = BCF02B1C4F32FEA5B40D232188BD4136 /* JVFloatLabeledTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		559B8E0F986C4B6C78D71647D763BB71 /* Pods-PhoneNumberKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B2267A795B70E738405D01519115A3 /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit-watchOS" */;
+			buildPhases = (
+				C206E1F515DEDA10A948151BDA7574B0 /* Sources */,
+				1398EB45F6A88815B8D94D65F80AB2A6 /* Frameworks */,
+				67C60C01BFE2496AC9B498FF57C3BFE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PhoneNumberKit-watchOS";
+			productName = "Pods-PhoneNumberKit-watchOS";
+			productReference = CDEBEA46AE8D4700C2894EE2F8A8044A /* Pods_PhoneNumberKit_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B3BFCDE47A02DE6FD63978ADA6D8D49 /* Pods-PhoneNumberKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D194FEE84593C84281D26FEEA8810ED1 /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKitTests" */;
+			buildPhases = (
+				722AFF5DA31C309543663A9D9D57684C /* Sources */,
+				568DC11159249E283D6BEA466EF9CB98 /* Frameworks */,
+				8913FC3CDE0A0CD86B205644BE28AB4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309AA2528BACA0816AB824813864FB9A /* PBXTargetDependency */,
+			);
+			name = "Pods-PhoneNumberKitTests";
+			productName = "Pods-PhoneNumberKitTests";
+			productReference = 53136EE8FA6653E15860E12A024BFA9A /* Pods_PhoneNumberKitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73C7AE0A8FBA9A32C97A6ECE4DBCF532 /* Pods-PhoneNumberKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDC9C1EC14E96A4ACE749094787688F /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit-tvOS" */;
+			buildPhases = (
+				38A414615172B324C757B12A78C60203 /* Sources */,
+				63B42E7F21811B118627423202DC2382 /* Frameworks */,
+				DCF9858E62422C90F422BB3474D7377B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PhoneNumberKit-tvOS";
+			productName = "Pods-PhoneNumberKit-tvOS";
+			productReference = 0781C770CFCFCCB016FB7E4A99DC7199 /* Pods_PhoneNumberKit_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2D8DE3CAE6EDCE2C1D586DF3D97EB5D /* Pods-PhoneNumberKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649193777F3069FEDFEA9DF73A00B01E /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit-macOS" */;
+			buildPhases = (
+				5F7E6D3ACB8ECDF1F0B85D4B7C333A6F /* Sources */,
+				CBC19FFB703216F5CE5DF3AFE5116BA9 /* Frameworks */,
+				A78C8294FB1A4564FF7DB16A9E6A59FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PhoneNumberKit-macOS";
+			productName = "Pods-PhoneNumberKit-macOS";
+			productReference = F58AB0FBE864769BF411850C5A2EA287 /* Pods_PhoneNumberKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 745D3D2FFE2930DD884FC1A4A8AB4BBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */,
+				16A11D71521A2027BFEE514805DA1ABC /* Pods-PhoneNumberKit */,
+				D2D8DE3CAE6EDCE2C1D586DF3D97EB5D /* Pods-PhoneNumberKit-macOS */,
+				73C7AE0A8FBA9A32C97A6ECE4DBCF532 /* Pods-PhoneNumberKit-tvOS */,
+				559B8E0F986C4B6C78D71647D763BB71 /* Pods-PhoneNumberKit-watchOS */,
+				6B3BFCDE47A02DE6FD63978ADA6D8D49 /* Pods-PhoneNumberKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331CAB23E830D1AA0768D9AC301E22B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */,
+				F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */,
+				36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */,
+				9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A414615172B324C757B12A78C60203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E0C745C86F4D2A4D920D46027F6C95 /* Pods-PhoneNumberKit-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4813E86CA47DD3A47C181144E32482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91555CBC9016FDA8E123FA57BC45DD0E /* Pods-PhoneNumberKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7E6D3ACB8ECDF1F0B85D4B7C333A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD161DA02156066CE5847BEABDDE3D0 /* Pods-PhoneNumberKit-macOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722AFF5DA31C309543663A9D9D57684C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF0C2EF58F2CF0DD7922FD4E4AF0C6D /* Pods-PhoneNumberKitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C206E1F515DEDA10A948151BDA7574B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760310A635FB79C79BEC9E37E12AFD18 /* Pods-PhoneNumberKit-watchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309AA2528BACA0816AB824813864FB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */;
+			targetProxy = D8F2EF6A92040761747AA1E7A1067445 /* PBXContainerItemProxy */;
+		};
+		729F38C8900FF51F1AAED1806D59F15E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */;
+			targetProxy = 771CFB0C9832F6609F18125F0E0B8178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B4F8C608EEA8A533292BA44BA2DD2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A819231FB1D7C4621C5E5DE8BE99F3A /* Pods-PhoneNumberKit-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit-watchOS/Pods-PhoneNumberKit-watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit_watchOS;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		104A736B99445DEEEC87C663A3D11D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		1BB08A9397560E174EC4AFC219411089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		2D107BF7C9334CF21DDE4B041B8BBDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580B70E6E5CBF212BD26CCEE595322F4 /* Pods-PhoneNumberKit-macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit-macOS/Pods-PhoneNumberKit-macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E34B0BE1282CD2D9A1248562A6B3B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C26E137D425BF65B08F3863325FA9C5 /* Pods-PhoneNumberKit-macOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit-macOS/Pods-PhoneNumberKit-macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C1DD9927782ABC1423DFFEAC474DFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10A9880D12FA142E48F2249AF1D29A8 /* Pods-PhoneNumberKit-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit-watchOS/Pods-PhoneNumberKit-watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit_watchOS;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		6B63F6F5849D32C580103F725BA10EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DFD482673D8455F205E0F87C559336 /* Pods-PhoneNumberKit-tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit-tvOS/Pods-PhoneNumberKit-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit_tvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		796AA99CAE79253DB7E1C541A4B6B86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A013E631B8D8CABB86D295B0890BAE42 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		897D9625EC390308F89A3349632F3B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDC9E32EDD68CFD0108C614B2F7865C /* Pods-PhoneNumberKitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKitTests/Pods-PhoneNumberKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC68204DC6C85B347B9CB6E3ABB9A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C000CDBC2CF44F80270F09F1103C368C /* Pods-PhoneNumberKit.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit/Pods-PhoneNumberKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D09AEDB66AD010E6B3065A4731C89C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A013E631B8D8CABB86D295B0890BAE42 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5C8C8425535CC4DD3F28C726FC1B9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857D0BC287CB96FB359E607B199F6199 /* Pods-PhoneNumberKit-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit-tvOS/Pods-PhoneNumberKit-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit_tvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEAD8A7F08FEEEA5B7DD38627B8C09C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC19FFDEDB7A13DF49F648AD1FE6B8F5 /* Pods-PhoneNumberKitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKitTests/Pods-PhoneNumberKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA4C036A6359DBE6336F133519903943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCAA9D7718F89FA6CC279253FF316F8A /* Pods-PhoneNumberKit.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhoneNumberKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhoneNumberKit/Pods-PhoneNumberKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104A736B99445DEEEC87C663A3D11D8F /* Debug */,
+				1BB08A9397560E174EC4AFC219411089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649193777F3069FEDFEA9DF73A00B01E /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D107BF7C9334CF21DDE4B041B8BBDAF /* Debug */,
+				4E34B0BE1282CD2D9A1248562A6B3B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69308DC7DB54AE1F800134D2F0AD6E4E /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4C036A6359DBE6336F133519903943 /* Debug */,
+				AC68204DC6C85B347B9CB6E3ABB9A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDC9C1EC14E96A4ACE749094787688F /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C8C8425535CC4DD3F28C726FC1B9E2 /* Debug */,
+				6B63F6F5849D32C580103F725BA10EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09AEDB66AD010E6B3065A4731C89C1D /* Debug */,
+				796AA99CAE79253DB7E1C541A4B6B86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B2267A795B70E738405D01519115A3 /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1DD9927782ABC1423DFFEAC474DFB4 /* Debug */,
+				0B4F8C608EEA8A533292BA44BA2DD2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D194FEE84593C84281D26FEEA8810ED1 /* Build configuration list for PBXNativeTarget "Pods-PhoneNumberKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAD8A7F08FEEEA5B7DD38627B8C09C1 /* Debug */,
+				897D9625EC390308F89A3349632F3B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
